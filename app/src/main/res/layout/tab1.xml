@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn1_first"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@color/background"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/btn_first"/>
+        <Button
+            android:id="@+id/btn1_second"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/btn_second"/>
+        <Button
+            android:id="@+id/btn1_third"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/btn_third"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <CalendarView
+            android:id="@+id/cal1"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"></CalendarView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

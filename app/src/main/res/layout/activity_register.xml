@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:id="@+id/registerActivity_edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerActivity_edittext_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/registerActivity_edittext_cname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerActivity_edittext_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerActivity_edittext_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerActivity_edittext_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/birth"
+            android:inputType="textPersonName" />
+
+
+
+
+
+
+        <Button
+            android:id="@+id/registerActivity_button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_button_05"
+            android:text="@string/registerButton"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/textColorPrimaryLight"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
